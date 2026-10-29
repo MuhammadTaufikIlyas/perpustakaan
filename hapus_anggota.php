@@ -14,16 +14,12 @@ if ($stmt->affected_rows > 0) {
     $stmt->close();
 
     redirect(
-        'anggota.php',
-        'success',
-        'Data anggota berhasil dihapus.'
+        'anggota.php','success','Data anggota berhasil dihapus.'
     );
 } else {
     $stmt->close();
 
     redirect(
-        'anggota.php',
-        'danger',
-        'Data anggota tidak ditemukan atau gagal dihapus.'
+        'anggota.php','danger','Data anggota tidak ditemukan atau gagal dihapus.'
     );
 }

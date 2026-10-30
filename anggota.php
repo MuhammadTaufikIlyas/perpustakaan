@@ -9,7 +9,7 @@ $no = 1;
 
 ?>
 <h1 class="mb-3">Data Anggota</h1>
-<a class="btn btn-success mb-3" href="form_anggota.php">+ Input Anggota</a>
+<a class="btn btn-success mb-3" href="form_anggota.php">Input Anggota</a>
 <table class="table table-bordered table-striped align-middle">
     <thead class="table-light">
         <tr>
